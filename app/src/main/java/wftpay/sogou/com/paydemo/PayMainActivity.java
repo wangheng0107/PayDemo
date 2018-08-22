@@ -51,22 +51,6 @@ public class PayMainActivity extends Activity {
         super.onStop();
     }
 
-    public Handler handler = new Handler() {
-        public void handleMessage(android.os.Message msg) {
-            switch (msg.what) {
-                //                case PayHandlerManager.PAY_H5_FAILED: //失败，原因如有（商户未开通[pay.weixin.wappay]支付类型）等
-                //                    Log.i(TAG, "" + msg.obj);
-                //                    break;
-                //                case PayHandlerManager.PAY_H5_SUCCES: //成功
-                //                    Log.i(TAG, "" + msg.obj);
-                //                    break;
-
-                default:
-                    break;
-            }
-        }
-    };
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
